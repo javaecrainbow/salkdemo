@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="salkdemo-web:war">
+    <output-path>$PROJECT_DIR$/salkdemo-web/target</output-path>
+    <root id="archive" name="salkdemo-web.war">
+      <element id="artifact" artifact-name="salkdemo-web:war exploded" />
+    </root>
+  </artifact>
+</component>

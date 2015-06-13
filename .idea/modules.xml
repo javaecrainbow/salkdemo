@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/salkdemo.iml" filepath="$PROJECT_DIR$/salkdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/salkdemo-common/salkdemo-common.iml" filepath="$PROJECT_DIR$/salkdemo-common/salkdemo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/salkdemo-interface/salkdemo-interface.iml" filepath="$PROJECT_DIR$/salkdemo-interface/salkdemo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/salkdemo-service/salkdemo-service.iml" filepath="$PROJECT_DIR$/salkdemo-service/salkdemo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/salkdemo-web/salkdemo-web.iml" filepath="$PROJECT_DIR$/salkdemo-web/salkdemo-web.iml" />
+    </modules>
+  </component>
+</project>
