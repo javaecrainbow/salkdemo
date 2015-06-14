@@ -32,10 +32,6 @@
 	  		</dependency>
 	  		<dependency>
 	  			<groupId>org.slf4j</groupId>
-	  			<artifactId>jcl-over-slf4j</artifactId>
-	  		</dependency>
-	  		<dependency>
-	  			<groupId>org.slf4j</groupId>
 	  			<artifactId>slf4j-api</artifactId>
 	  		</dependency>
 	  		<dependency>
@@ -63,5 +59,31 @@
 			  <artifactId>poi</artifactId>
 			  <version>3.9</version>
 			</dependency>
+			<dependency>
+			  <groupId>org.apache.poi</groupId>
+			  <artifactId>poi</artifactId>
+			  <version>3.9</version>
+			</dependency>
+			<dependency>
+			    <groupId>com.google.guava</groupId>
+			    <artifactId>guava</artifactId>
+			    <version>18.0</version>
+			</dependency>
+			<dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+        	<groupId>cpdetector</groupId>
+        	<artifactId>cpdetector</artifactId>
+        	<version>1.0.7</version>
+        </dependency>
   </dependencies>
 </project>
