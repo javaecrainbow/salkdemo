@@ -84,8 +84,8 @@
 			</bean>
 	    <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="prefix" value="/demo/legacy-sport/"/>
-        <!--<property name="suffix" value=".jsp"/>-->
+        <property name="prefix" value="/jsp/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
 	<!-- view resolver velocity layout support 
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
